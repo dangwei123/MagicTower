@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#canvas{
+	border: 1px solid #000;
+	margin: 20px auto;
+	display: block;
+}
+img{
+	height: 0;
+	width: 0;
+}
+#infor{
+	height: 550px;
+	width: 200px;
+	position: absolute;
+	top: 20px;
+	left: 200px;
+	background-color: #058;
+	color: #fff;
+	font-size: 18px;
+}
+#infor span{
+	line-height: 30px;
+	display: block;
+}
+#infor span p{
+	display: inline-block;
+}
+#monsterInfor{
+	height: 550px;
+	width: 200px;
+	position: absolute;
+	right: 200px;
+	top: 20px;
+	background-color: #058;
+	font-size: 18px;
+	color: #fff;
+}
+#monsterInfor span{
+	line-height: 30px;
+	display: block;
+}
+#monsterInfor span p{
+	display: inline-block;
+}
+#lll{
+	text-align: center;
+}
+#buybuybuy{
+	position: absolute;
+	z-index: 9999;
+	height: 500px;
+	width: 500px;
+	left: 50%;
+	top: 50%;
+	margin: -250px 0 0 -250px;
+	background-color: rgba(0,0,0,.5);
+	display: none;
+	color: #fff;
+}
+#talk{
+	height: 500px;
+	width: 500px;
+	z-index: 9999;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -250px 0 0 -250px;
+	background-color: rgba(0,0,0,.5);
+	display: none;
+	color: #fff;
+}
